@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>SunnySide</title>
+	</head>
+	<body>
+		<div class="modal modal__off">
+			<!-- Modal body part -->
+			<div class="modal__body">
+				<h3 class="modal__heading">Modal part</h3>
+				<hr />
+				<form action="https://echo.htmlacademy.ru" class="modal__form">
+					<label class="modal__name ipt__title">Your full name</label>
+					<input
+						type="text"
+						name="Name"
+						class="modal__ipt ipt__name"
+						placeholder="Your name"
+					/>
+					<label class="modal__password ipt__title"
+						>Your account password</label
+					>
+					<input
+						type="password"
+						name="password"
+						class="modal__ipt ipt__password"
+						placeholder="Your password"
+					/>
+					<label class="modal__email ipt__title">Your e-mail</label>
+					<input
+						type="email"
+						name="E-mail"
+						class="modal__ipt ipt__email"
+						placeholder="Your e-mail"
+					/>
+					<span class="register">
+						<button type="submit" class="btn__register">
+							Register
+						</button>
+					</span>
+				</form>
+				<hr />
+				<button class="btn__close">Close</button>
+			</div>
+			<!-- Modal body part end -->
+			<div class="curtain"></div>
+		</div>
+
+		<header class="header">
+			<div class="container header-container">
+				<a class="header-link" href="index.html">
+					<img
+						class="logo"
+						src="./images/logo.svg"
+						alt="Company logo"
+						width="190"
+						height="32"
+					/>
+				</a>
+
+				<ul class="header-list">
+					<li class="header-item">
+						<a class="list-link" href="#">Home</a>
+					</li>
+					<li class="header-item">
+						<a class="list-link" href="#services">Services</a>
+					</li>
+					<li class="header-item">
+						<a class="list-link" href="#about">About</a>
+					</li>
+					<li class="header-item">
+						<a class="list-link" href="#product">Product</a>
+					</li>
+				</ul>
+
+				<div class="link-wrapper">
+					<a class="signin btns" href="#">Sign in</a>
+					<a class="signup btns fire-on-hover" href="#">Sign up</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="hero container">
+				<div class="hero-left">
+					<h1 class="hero-heading">
+						The Design Thinking superpowers
+					</h1>
+					<div class="hero-text">
+						Tools, tutorials, design and innovation experts, all in
+						one place! The most intuitive way to imagine your next
+						user experience.
+					</div>
+
+					<div class="hero-links">
+						<a class="hero-started fire-on-hover" href="#"
+							>Get started</a
+						>
+						<a class="hero-watch-link" href="#">
+							<svg
+								class="hero-play-icon"
+								width="20"
+								height="20"
+								fill="currentColor"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M16.69 8.516c.773.428.773 1.54 0 1.968L2.07 18.576A1.125 1.125 0 0 1 .4 17.59V1.409C.4.552 1.32.01 2.07.425l14.62 8.092Z"
+								/>
+							</svg>
+							<span class="hero-play-link">Watch the Video</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- HERO part end -->
+
+			<div class="power container">
+				<h2 class="power-heading">
+					We design tools to unveil your superpowers
+				</h2>
+				<div class="power-box__holder">
+					<div class="power-box">
+						<h4 class="power-box__subheading">First click tests</h4>
+						<img
+							class="power-image"
+							src="./images/cursor.svg"
+							aria-hidden="true"
+							alt="cursor"
+							width="50"
+							height="50"
+						/>
+						<p class="power-box__text">
+							While most people enjoy <br />
+							casino gambling,
+						</p>
+					</div>
+
+					<div class="power-box">
+						<h4 class="power-box__subheading">Design surveys</h4>
+						<img
+							class="power-image"
+							src="./images/survey.svg"
+							aria-hidden="true"
+							alt="survey"
+							width="50"
+							height="50"
+						/>
+						<p class="power-box__text">
+							Sports betting, lottery and bingo playing for the
+							fun
+						</p>
+					</div>
+
+					<div class="power-box">
+						<h4 class="power-box__subheading">Preference tests</h4>
+						<img
+							class="power-image"
+							src="./images/like.svg"
+							aria-hidden="true"
+							alt="like"
+							width="50"
+							height="50"
+						/>
+						<p class="power-box__text">
+							The Myspace page defines the individual.
+						</p>
+					</div>
+
+					<div class="power-box">
+						<h4 class="power-box__subheading">Five second tests</h4>
+						<img
+							class="power-image"
+							src="./images/cursor.svg"
+							aria-hidden="true"
+							alt="cursor"
+							width="50"
+							height="50"
+						/>
+						<p class="power-box__text">
+							Personal choices and the overall personality of the
+							person.
+						</p>
+					</div>
+				</div>
+				<span class="power-link"
+					><a class="power-page__link fire-on-hover" href="#"
+						>sign up now</a
+					></span
+				>
+			</div>
+			<!-- POWER part end -->
+			<div class="market container">
+				<div class="market-header">
+					<h3 class="market-heading">Marketing Strategies</h3>
+					<p class="market-subheading">
+						Join 40,000+ other marketers and get proven strategies
+						on email marketing
+					</p>
+
+					<div class="market-heading__links">
+						<ul class="market-list">
+							<li class="market-item">
+								<a class="market-item__link" href="#">All</a>
+							</li>
+							<li class="market-item">
+								<a class="market-item__link" href="#">Art</a>
+							</li>
+							<li class="market-item">
+								<a class="market-item__link" href="#"
+									>Culture</a
+								>
+							</li>
+							<li class="market-item">
+								<a class="market-item__link" href="#">Design</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- DESIGN-LINKS part end -->
+				<div class="market-main">
+					<div class="market-box">
+						<img
+							class="market-image"
+							src="./images/market-1.png"
+							alt="box-1 background"
+							width="377"
+							height="200"
+						/>
+						<div class="market-content__holder">
+							<h3 class="market-content__heading">
+								Increasing prosperity with positive thinking
+							</h3>
+							<ul class="market-content__list">
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Art</a
+									>
+								</li>
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Design</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="market-box">
+						<img
+							class="market-image"
+							src="./images/market-2.png"
+							alt="box-2 background"
+							width="377"
+							height="200"
+						/>
+						<div class="market-content__holder">
+							<h3 class="market-content__heading">
+								Motivation is the first step to success
+							</h3>
+							<ul class="market-content__list">
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Culture</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="market-box">
+						<img
+							class="market-image"
+							src="./images/market-3.png"
+							alt="box-3 background"
+							width="377"
+							height="200"
+						/>
+
+						<div class="market-content__holder">
+							<h3 class="market-content__heading">
+								Success steps for your personal or business life
+							</h3>
+							<ul class="market-content__list">
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Culture</a
+									>
+								</li>
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Art</a
+									>
+								</li>
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Design</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="market-box market-big-one">
+						<img
+							class="market-image"
+							src="./images/box-big.png"
+							alt="box-4 background"
+							width="377"
+							height="200"
+						/>
+
+						<div class="market-content__holder">
+							<h3 class="market-content__heading">
+								Success Steps For Your Personal Or Business Life
+								Plus Funny Image on the Back
+							</h3>
+							<ul class="market-content__list">
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Culture</a
+									>
+								</li>
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Design</a
+									>
+								</li>
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Art</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="market-box">
+						<img
+							class="market-image"
+							src="./images/box-5.png"
+							alt="box-5 background"
+							width="377"
+							height="200"
+						/>
+
+						<div class="market-content__holder">
+							<h3 class="market-content__heading">
+								Increasing Prosperity With Positive Thinking
+							</h3>
+							<ul class="market-content__list">
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Design</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="market-box">
+						<img
+							class="market-image"
+							src="./images/market-1.png"
+							alt="box-6 background"
+							width="377"
+							height="200"
+						/>
+						<div class="market-content__holder">
+							<h3 class="market-content__heading">
+								Increasing prosperity with positive thinking
+							</h3>
+							<ul class="market-content__list">
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Art</a
+									>
+								</li>
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Design</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="market-box">
+						<img
+							class="market-image"
+							src="./images/market-2.png"
+							alt="box-7 background"
+							width="377"
+							height="200"
+						/>
+						<div class="market-content__holder">
+							<h3 class="market-content__heading">
+								Motivation is the first step to success
+							</h3>
+							<ul class="market-content__list">
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Culture</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="market-box">
+						<img
+							class="market-image"
+							src="./images/market-3.png"
+							alt="box-8 background"
+							width="377"
+							height="200"
+						/>
+
+						<div class="market-content__holder">
+							<h3 class="market-content__heading">
+								Success steps for your personal or business life
+							</h3>
+							<ul class="market-content__list">
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Culture</a
+									>
+								</li>
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Art</a
+									>
+								</li>
+								<li class="market-content__item">
+									<a href="#" class="market-content__link"
+										>Design</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- MARKET part end -->
+
+			<div class="about container">
+				<div class="about-box">
+					<h2 class="about-heading">About us</h2>
+					<p class="about-text">
+						Your About Us page is vital. It's often the first stop
+						in any user's journey through a website or blog. It also
+						shouldn't be their last, because first impressions count
+						online just as much as they do in the real world. If
+						your visitors aren't impressed, you can expect them to
+						leave without reading your awesome content or completing
+						a conversion action (e.g., signing up for your
+						newsletter, making a purchase).
+					</p>
+					<div class="about-staff">
+						<div class="staff">
+							<h4 class="staff-name">Kathy Rosenberg</h4>
+							<p class="staff-position">Product Mannager</p>
+							<a class="staff-link" href="mailto:kathyr@gmail.com"
+								>kathyr@gmail.com</a
+							>
+							<img
+								class="staff-avatar"
+								src="./images/kathy.png"
+								alt="Kathy avatar"
+								width="98"
+								height="98"
+							/>
+						</div>
+
+						<div class="staff">
+							<h4 class="staff-name">Alexandra Boyarskaya</h4>
+							<p class="staff-position">
+								Support Marketing Specialist
+							</p>
+							<a
+								class="staff-link"
+								href="mailto:alexandrab@gmail.com"
+								>alexandrab@gmail.com</a
+							>
+							<img
+								class="staff-avatar"
+								src="./images/alexsandra.png"
+								alt="Alexsandra avatar"
+								width="98"
+								height="98"
+							/>
+						</div>
+
+						<div class="staff">
+							<h4 class="staff-name">Melani Amini</h4>
+							<p class="staff-position">Photographer</p>
+							<a
+								class="staff-link"
+								href="mailto:melania@gmail.com"
+								>melania@gmail.com</a
+							>
+							<img
+								class="staff-avatar"
+								src="./images/melani.png"
+								alt="Melani avatar"
+								width="98"
+								height="98"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ABOUT part end -->
+
+			<div class="contact">
+				<div class="contact-box container">
+					<div class="contact-left">
+						<h2 class="contact-heading">Contact us</h2>
+						<p class="contact-text">
+							Your About Us page is vital. It's often the first
+							stop in any user's journey through a website or
+							blog. It also shouldn't be their last, because first
+							impressions count online just as much as they do in
+							the real world. If your visitors aren't impressed,
+							you can expect them to leave without reading your
+							awesome content or completing a conversion action
+							(e.g., signing up for your newsletter, making a
+							purchase).
+						</p>
+						<div class="contact-info__holder">
+							<div class="contact">
+								<span class="icon-holder">
+									<img
+										class="contact-icon"
+										src="./images/phone.svg"
+										alt="Phone icon"
+										width="25"
+										height="25"
+									/>
+								</span>
+								<span class="contact-number">
+									<a
+										class="contact-link"
+										href="tel:+375(22)345-00-99"
+										>+375 (22) 345-00-99</a
+									>
+								</span>
+							</div>
+							<div class="contact">
+								<span class="icon-holder">
+									<img
+										class="contact-icon"
+										src="./images/mail.svg"
+										alt="mail icon"
+										width="25"
+										height="25"
+									/>
+								</span>
+								<span class="mail-address">
+									<a
+										class="contact-link"
+										href="mailto:emailname@gmail.com"
+									>
+										emailname@gmail.com
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="contact-right">
+						<form class="form">
+							<div class="input-top">
+								<input
+									type="text"
+									class="ipt"
+									placeholder="Your name"
+								/>
+								<input
+									type="email"
+									class="ipt"
+									placeholder="Your email"
+								/>
+							</div>
+							<textarea
+								class="message"
+								id="messages"
+								placeholder="What do you want to ask?"
+							></textarea>
+							<button class="btn fire-on-hover" type="submit">
+								Send
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- CONTACT part end -->
+			<footer class="footer container">
+				<div class="footer-wrapper">
+					<div class="logo-wrapper">
+						<a class="header-link" href="index.html">
+							<img
+								class="logo"
+								src="./images/logo.svg"
+								alt="Company logo"
+								width="190"
+								height="32"
+							/>
+						</a>
+					</div>
+					<div class="footer-box m-1">
+						<h4 class="footer-heading">Quick Links</h4>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-link">About us</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-link">Blog</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-link">Contact</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-link faq">faq</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-box m-2">
+						<h4 class="footer-heading">Legal staff</h4>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="" class="footer-link">disclaimer</a>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-link">financing</a>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-link"
+									>privacy policy</a
+								>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-link"
+									>Terms of Service</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<h4 class="footer-heading">Quick Links</h4>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-link">About us</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-link">Blog</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-link">Contact</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-link faq">faq</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</main>
+	</body>
+</html>
